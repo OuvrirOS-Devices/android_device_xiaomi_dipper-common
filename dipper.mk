@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, $(LOCAL_DIR)/device.mk)
+$(call inherit-product, device/xiaomi/dipper/device.mk)
 $(call inherit-product, vendor/ouvrir/config/common.mk)
 
 # Product Configs
