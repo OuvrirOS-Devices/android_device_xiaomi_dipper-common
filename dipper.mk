@@ -5,7 +5,6 @@
 #
 
 $(call inherit-product, device/xiaomi/dipper/device.mk)
-$(call inherit-product, vendor/ouvrir/config/common.mk)
 
 # Product Configs
 ## Name
