@@ -28,7 +28,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_USE_VNDK_OVERRIDE := true
 
 # Inherit from sdm845-common
-$(call inherit-product, $(LOCAL_DIR)/sdm845.mk)
+$(call inherit-product, device/xiaomi/dipper/sdm845.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \
