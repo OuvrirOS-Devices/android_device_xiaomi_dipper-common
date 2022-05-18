@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.dirac;
+package org.ouvriros.settings.dirac;
 
 import android.os.Bundle;
 import android.widget.Switch;
@@ -28,7 +28,7 @@ import androidx.preference.SwitchPreference;
 import com.android.settingslib.widget.MainSwitchPreference;
 import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
-import org.lineageos.settings.R;
+import org.ouvriros.settings.R;
 
 public class DiracSettingsFragment extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener, OnMainSwitchChangeListener {

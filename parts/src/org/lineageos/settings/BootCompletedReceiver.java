@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings;
+package org.ouvriros.settings;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import org.lineageos.settings.dirac.DiracUtils;
-import org.lineageos.settings.doze.DozeUtils;
-import org.lineageos.settings.thermal.ThermalUtils;
+import org.ouvriros.settings.dirac.DiracUtils;
+import org.ouvriros.settings.doze.DozeUtils;
+import org.ouvriros.settings.thermal.ThermalUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 

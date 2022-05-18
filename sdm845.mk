@@ -381,7 +381,7 @@ PRODUCT_PACKAGES += \
 
 # Trust HAL
 PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+    vendor.ouvrir.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
